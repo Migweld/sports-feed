@@ -16,6 +16,8 @@ class FormulaOnePresenter
      */
     public function formatChampionship($year = 'current', $round = null)
     {
-        $championship = $this->repo->getChampionshipSchedule($year, $round);
+        $presenter = [];
+        $presenter['schedule'] = $this->repo->getChampionshipSchedule($year);
+
     }
 }
