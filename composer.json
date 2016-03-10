@@ -16,6 +16,6 @@
   },
   "require": {
     "illuminate/support": "~5",
-    "guzzlehttp/guzzle": "~6.x"
+    "guzzlehttp/guzzle": "~6"
   }
 }
