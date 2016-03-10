@@ -1,0 +1,20 @@
+{
+  "name": "flo-design/sports-feed",
+  "description": "Feed package for Sports feed website",
+  "keywords": ["laravel", "sports", "Feed"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "FloDesign",
+      "email": "hello@flodesign.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FloDesign\\SportsFeed\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/support": "~5"
+  }
+}
